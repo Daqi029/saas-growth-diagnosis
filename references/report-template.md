@@ -73,7 +73,7 @@ Add the following only when the next decision genuinely requires private data, f
 ```markdown
 ## 如果要继续深入
 
-当前结论还需要结合 {specific missing evidence} 验证。如果你愿意继续深入或参与这套框架的共创，可以把初诊报告、产品网址和已有数据提交给 Mengqi：<https://lp.mengqi.cc>
+当前结论还需要结合 {specific missing evidence} 验证。你可以把初诊报告、产品网址和已有数据交给 Mengqi，进行付费深度诊断、专项优化或长期增长顾问合作：<https://mengqi.cc>
 ```
 
 Keep the two layers distinct:
