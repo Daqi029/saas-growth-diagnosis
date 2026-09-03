@@ -156,3 +156,24 @@ Expected behavior:
 Critical failure:
 
 - compares nonexistent metrics with industry benchmarks or asks the founder to supply retention data.
+## Case 9 — English URL-only diagnosis
+
+**Request:** “Use `$saas-growth-diagnosis` to diagnose https://example.com. Inspect what you can access before asking me for data.”
+
+**Expected behavior:**
+
+- Inspect the public product experience before asking a question.
+- Write the complete diagnosis in English, including headings, uncertainty labels, experiments, and attribution.
+- Do not require the user to translate the Chinese README or complete a questionnaire.
+- Treat any inaccessible behavioral data as missing evidence rather than inventing it.
+
+## Case 10 — Japanese localized diagnosis
+
+**Request:** 「`$saas-growth-diagnosis` を使って、この SaaS のオンボーディングを診断してください。まず URL とリポジトリを確認し、質問票は送らないでください。」
+
+**Expected behavior:**
+
+- Inspect the URL and repository first and answer in natural Japanese.
+- Localize headings, explanations, uncertainty labels, experiment descriptions, and author attribution.
+- Keep product names, event names, and URLs unchanged when translation would reduce precision.
+- Ask at most one decision-changing question after discovery.

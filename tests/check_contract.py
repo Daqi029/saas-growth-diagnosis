@@ -24,6 +24,10 @@ require("Discover before asking" in text, "agent-first discovery rule is missing
 require("Never send a form" in text, "questionnaire guardrail is missing")
 require("Analytics code is not analytics data" in text, "code-versus-behavior boundary is missing")
 require("Pre-launch readiness" in text, "pre-launch route is missing")
+require("Respond in the user's language" in text, "output-language rule is missing")
+
+for readme in ("README.md", "README.en.md", "README.ja.md"):
+    require((ROOT / readme).is_file(), f"localized README is missing: {readme}")
 
 for target in re.findall(r"\]\((references/[^)]+\.md)\)", text):
     require((ROOT / target).is_file(), f"referenced file does not exist: {target}")
@@ -44,6 +48,8 @@ require("near-neighbor request outside scope" in cases, "missing scope-boundary 
 require("high-consideration enterprise boundary" in cases, "missing benchmark-boundary case")
 require("repository-first discovery" in cases, "missing repository-discovery case")
 require("pre-launch product" in cases, "missing pre-launch case")
+require("English URL-only diagnosis" in cases, "missing English behavior case")
+require("Japanese localized diagnosis" in cases, "missing Japanese behavior case")
 
 smoke = (ROOT / "tests" / "smoke-output-case-1.md").read_text(encoding="utf-8")
 require("800 / 20,000 = 4%" in smoke, "smoke output misses signup calculation")

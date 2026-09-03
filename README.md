@@ -1,6 +1,8 @@
 # SaaS Growth Diagnosis
 
-> **v0.1 Public Beta** — 欢迎用真实产品测试并提交反馈。
+简体中文 | [English](README.en.md) | [日本語](README.ja.md)
+
+> **v0.2 Public Beta** — 欢迎用真实产品测试并提交反馈。
 
 一个面向独立开发者、小型 SaaS 创始人和增长负责人的公开诊断 Skill。
 
@@ -82,6 +84,8 @@ Aha Moment 是用户成功生成第一份报告。我会提供流程截图和分
 ```text
 saas-growth-diagnosis/
 ├── README.md
+├── README.en.md
+├── README.ja.md
 ├── LICENSE
 ├── VERSION
 ├── SKILL.md
