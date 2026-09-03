@@ -1,0 +1,7 @@
+interface:
+  display_name: "SaaS Growth Diagnosis"
+  short_description: "定位 SaaS 从流量到收入的关键增长卡点并排序实验"
+  default_prompt: "Use $saas-growth-diagnosis to inspect the product in my current workspace, diagnose what you can, and prioritize the next three actions."
+
+policy:
+  allow_implicit_invocation: true
