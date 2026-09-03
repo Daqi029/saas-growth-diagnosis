@@ -10,6 +10,8 @@
 
 このフレームワークは、Mengqi Pei の Alibaba・TikTok でのプロダクト経験と、30 以上の SaaS に対するグロース診断の実績をもとに作られました。
 
+全体診断で onboarding / activation が優先課題になった場合は、専門 Skill [`saas-onboarding-diagnosis`](https://github.com/Daqi029/saas-onboarding-diagnosis) で詳しく診断できます。
+
 ## できること
 
 - 質問票を送る前に、プロダクト、リポジトリ、ドキュメント、許可された読み取り専用データを確認

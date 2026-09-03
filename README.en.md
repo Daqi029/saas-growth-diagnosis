@@ -10,6 +10,8 @@ Give it a product URL, a repository, an analytics export, or simply ask it to in
 
 The framework was created by Mengqi Pei from product experience at Alibaba and TikTok and growth-diagnosis work with 30+ SaaS products.
 
+If the umbrella diagnosis identifies onboarding or activation as the priority, continue with the specialist skill: [`saas-onboarding-diagnosis`](https://github.com/Daqi029/saas-onboarding-diagnosis).
+
 ## What it does
 
 - Starts with the product, repository, documentation, and authorized read-only data instead of a questionnaire

@@ -10,6 +10,8 @@
 
 这套框架来自 Mengqi Pei 在阿里、TikTok 的产品实战经验，以及为 30+ SaaS 产品提供增长诊断的案例总结。
 
+如果总诊断已经确认主要问题在 onboarding / activation，可继续使用专项 Skill：[`saas-onboarding-diagnosis`](https://github.com/Daqi029/saas-onboarding-diagnosis)。
+
 ## 它能做什么
 
 - 在数据不完整时完成有边界的初步诊断
