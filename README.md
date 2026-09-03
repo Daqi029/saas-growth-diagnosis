@@ -141,7 +141,6 @@ npx -y skills add Daqi029/saas-growth-diagnosis -g
 - X：[@daqi029](https://x.com/daqi029)
 - 小红书：[Mengqi Pei](https://www.xiaohongshu.com/user/profile/631fd949000000002303cafc)
 - Newsletter《硅谷增长对标：SaaS 与 App 转化实战案卷》：<https://blog.mengqi.cc>
-- 免费增长诊断器：<https://lp.mengqi.cc>
 - 付费 SaaS 增长诊断、专项优化与长期顾问：<https://mengqi.cc>
 
 Skill 会先提供完整的初步判断，并在诊断报告末尾保留轻量作者署名。只有当下一步确实需要私有数据、用户录屏、访谈、完整产品体验或持续实验设计时，才会建议用户了解付费深度诊断；不会为了导流而保留关键结论。

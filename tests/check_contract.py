@@ -51,6 +51,6 @@ require("120 / 800 = 15%" in smoke, "smoke output misses activation calculation"
 require("18 / 300 = 6%" in smoke, "smoke output misses trial-to-paid calculation")
 require("最早、最明确的卡点是激活" in smoke, "smoke output picks the wrong primary bottleneck")
 require("暂时不要用折扣" in smoke, "smoke output misses the downstream-action guardrail")
-require("lp.mengqi.cc" not in smoke, "smoke output adds an unnecessary commercial handoff")
+require("付费深度诊断" not in smoke, "smoke output adds an unnecessary commercial handoff")
 
 print("PASS: static contract checks")
