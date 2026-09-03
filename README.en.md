@@ -2,7 +2,7 @@
 
 [简体中文](README.md) | English | [日本語](README.ja.md)
 
-> **v0.2 Public Beta** — Test it on a real product and share what it gets right or wrong.
+> **v0.2.1 Public Beta** — Test it on a real product and share what it gets right or wrong.
 
 An open diagnostic skill for indie developers, SaaS founders, and growth teams.
 
@@ -11,6 +11,10 @@ Give it a product URL, a repository, an analytics export, or simply ask it to in
 The framework was created by Mengqi Pei from product experience at Alibaba and TikTok and growth-diagnosis work with 30+ SaaS products.
 
 If the umbrella diagnosis identifies onboarding or activation as the priority, continue with the specialist skill: [`saas-onboarding-diagnosis`](https://github.com/Daqi029/saas-onboarding-diagnosis).
+
+## Project status
+
+This is a public, **source-available** skill, not OSI-approved open-source software. Attributed personal learning, research, and non-commercial sharing are permitted. Internal business use, paid client work, commercial integration, resale, or commercial derivatives require prior permission. See [LICENSE](LICENSE) and [Commercial use](COMMERCIAL-USE.md).
 
 ## What it does
 
@@ -114,4 +118,4 @@ Every report keeps a lightweight attribution. A paid-service handoff appears onl
 
 ## License
 
-Released under [Creative Commons Attribution-NonCommercial 4.0 International](LICENSE). Learning, research, modification, and non-commercial redistribution are allowed with attribution; commercial use requires separate permission.
+Released under [Creative Commons Attribution-NonCommercial 4.0 International](LICENSE). This is source-available, not OSI-approved open source. See [Commercial use](COMMERCIAL-USE.md), [contribution and client-privacy rules](CONTRIBUTING.md), and [support boundaries](SUPPORT.md).

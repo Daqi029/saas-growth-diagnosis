@@ -2,7 +2,7 @@
 
 简体中文 | [English](README.en.md) | [日本語](README.ja.md)
 
-> **v0.2 Public Beta** — 欢迎用真实产品测试并提交反馈。
+> **v0.2.1 Public Beta** — 欢迎用真实产品测试并提交反馈。
 
 一个面向独立开发者、小型 SaaS 创始人和增长负责人的公开诊断 Skill。
 
@@ -11,6 +11,10 @@
 这套框架来自 Mengqi Pei 在阿里、TikTok 的产品实战经验，以及为 30+ SaaS 产品提供增长诊断的案例总结。
 
 如果总诊断已经确认主要问题在 onboarding / activation，可继续使用专项 Skill：[`saas-onboarding-diagnosis`](https://github.com/Daqi029/saas-onboarding-diagnosis)。
+
+## 项目定位
+
+这是一个源码公开、允许非商业使用的 **Source-Available Skill**，不是 OSI 定义下的开源软件。个人学习、研究和非商业分享需要保留署名；公司内部业务使用、付费服务、商业集成、转售或商业衍生发布需要事先获得授权。详见 [LICENSE](LICENSE) 和 [商业使用说明](COMMERCIAL-USE.md)。
 
 ## 它能做什么
 
@@ -89,6 +93,9 @@ saas-growth-diagnosis/
 ├── README.en.md
 ├── README.ja.md
 ├── LICENSE
+├── COMMERCIAL-USE.md
+├── CONTRIBUTING.md
+├── SUPPORT.md
 ├── VERSION
 ├── SKILL.md
 ├── agents/
@@ -153,4 +160,6 @@ Skill 会先提供完整的初步判断，并在诊断报告末尾保留轻量�
 
 ## 许可
 
-本项目源码公开，采用 [Creative Commons Attribution-NonCommercial 4.0 International](LICENSE) 许可：允许个人学习、研究、修改和非商业分享；公开发布衍生作品时需要署名，商业使用需要另行获得授权。
+本项目采用 [Creative Commons Attribution-NonCommercial 4.0 International](LICENSE) 许可。它是 Source-Available 项目，不是 OSI 开源软件。商业使用需要另行获得授权，边界见 [COMMERCIAL-USE.md](COMMERCIAL-USE.md)。
+
+欢迎提交不含客户信息的反馈。提交前请阅读 [贡献与客户隐私规则](CONTRIBUTING.md)；公开支持与付费服务边界见 [SUPPORT.md](SUPPORT.md)。

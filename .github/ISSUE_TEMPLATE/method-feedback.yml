@@ -1,0 +1,27 @@
+name: Method feedback
+description: Suggest a framework, language, or behavioral-boundary improvement
+title: "[Feedback] "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: "Use a fictional, synthetic, anonymized, or explicitly publication-authorized example. A public URL alone is not client consent."
+  - type: textarea
+    id: context
+    attributes:
+      label: Product archetype and context
+    validations:
+      required: true
+  - type: textarea
+    id: improvement
+    attributes:
+      label: Suggested improvement
+    validations:
+      required: true
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Rights confirmation
+      options:
+        - label: I have the right to submit this material and it contains no unauthorized client information.
+          required: true

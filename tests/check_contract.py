@@ -29,6 +29,12 @@ require("Respond in the user's language" in text, "output-language rule is missi
 for readme in ("README.md", "README.en.md", "README.ja.md"):
     require((ROOT / readme).is_file(), f"localized README is missing: {readme}")
 
+for policy in ("LICENSE", "COMMERCIAL-USE.md", "CONTRIBUTING.md", "SUPPORT.md"):
+    require((ROOT / policy).is_file(), f"public-project policy is missing: {policy}")
+
+contributing = (ROOT / "CONTRIBUTING.md").read_text(encoding="utf-8")
+require("Publicly reachable information is not automatically an authorized client case" in contributing, "client-case consent boundary is missing")
+
 for target in re.findall(r"\]\((references/[^)]+\.md)\)", text):
     require((ROOT / target).is_file(), f"referenced file does not exist: {target}")
 
@@ -52,6 +58,7 @@ require("English URL-only diagnosis" in cases, "missing English behavior case")
 require("Japanese localized diagnosis" in cases, "missing Japanese behavior case")
 
 smoke = (ROOT / "tests" / "smoke-output-case-1.md").read_text(encoding="utf-8")
+require("Synthetic example" in smoke, "public example must be explicitly synthetic")
 require("800 / 20,000 = 4%" in smoke, "smoke output misses signup calculation")
 require("120 / 800 = 15%" in smoke, "smoke output misses activation calculation")
 require("18 / 300 = 6%" in smoke, "smoke output misses trial-to-paid calculation")

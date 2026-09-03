@@ -2,7 +2,7 @@
 
 [简体中文](README.md) | [English](README.en.md) | 日本語
 
-> **v0.2 Public Beta** — 実際のプロダクトで試し、診断結果へのフィードバックをお寄せください。
+> **v0.2.1 Public Beta** — 実際のプロダクトで試し、診断結果へのフィードバックをお寄せください。
 
 個人開発者、SaaS 創業者、グロース担当者のためのオープンな診断 Skill です。
 
@@ -11,6 +11,10 @@
 このフレームワークは、Mengqi Pei の Alibaba・TikTok でのプロダクト経験と、30 以上の SaaS に対するグロース診断の実績をもとに作られました。
 
 全体診断で onboarding / activation が優先課題になった場合は、専門 Skill [`saas-onboarding-diagnosis`](https://github.com/Daqi029/saas-onboarding-diagnosis) で詳しく診断できます。
+
+## プロジェクトの位置づけ
+
+これは公開された **Source-Available Skill** であり、OSI が定義するオープンソースソフトウェアではありません。表示を伴う個人学習、研究、非商用共有は可能です。社内業務、顧客向け有料サービス、商用組み込み、再販売、商用派生物には事前許可が必要です。[LICENSE](LICENSE) と [商用利用](COMMERCIAL-USE.md) を確認してください。
 
 ## できること
 
@@ -114,4 +118,4 @@ npx -y skills add Daqi029/saas-growth-diagnosis -g
 
 ## ライセンス
 
-[Creative Commons Attribution-NonCommercial 4.0 International](LICENSE) を採用しています。表示を条件に、学習、研究、改変、非商用での再配布が可能です。商用利用には別途許可が必要です。
+[Creative Commons Attribution-NonCommercial 4.0 International](LICENSE) を採用しています。Source-Available であり、OSI オープンソースではありません。[商用利用](COMMERCIAL-USE.md)、[貢献・顧客プライバシールール](CONTRIBUTING.md)、[サポート範囲](SUPPORT.md)も確認してください。

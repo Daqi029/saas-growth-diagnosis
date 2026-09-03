@@ -1,5 +1,7 @@
 # Smoke output: Case 1
 
+> **Synthetic example:** The product and all numbers below are fictional and are not derived from a client engagement.
+
 This is a same-agent behavioral smoke run against Case 1. It demonstrates the expected contract; it is not an independent or held-out evaluation.
 
 # SaaS 增长初步诊断
